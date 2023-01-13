@@ -50,6 +50,11 @@ export const Card3DContainer = styled("div")<{ cardColor: CardColor }>`
   width: 50%;
   background-color: ${(p) => cardColorBgMap[p.cardColor]};
   transition: 250ms ease-in-out;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: calc(100vh - 136px);
+  }
 `;
 
 export const CustomizeCardContainer = styled.div`
@@ -61,4 +66,19 @@ export const CustomizeCardContainer = styled.div`
   padding: 64px 128px;
   justify-content: center;
   gap: 16px;
+
+  @media only screen and (max-width: 1280px) {
+    padding: 32px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+  }
 `;

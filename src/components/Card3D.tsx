@@ -145,7 +145,7 @@ export const Card3D = (props: Card3DProps) => {
         }
       });
     }
-  }, [props.cardColor, model]);
+  }, [props.cardColor, model, textureMap]);
 
   return (
     <Card3DRenderer ref={rendererRef}>
