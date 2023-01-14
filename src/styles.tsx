@@ -2,14 +2,14 @@ import styled from "@emotion/styled";
 import { CardColor } from "./types";
 
 const cardNameColorMap: Record<CardColor, string> = {
-  black: "white",
-  white: "black",
-  gray: "black",
+  black: "silver",
+  white: "gray",
+  gray: "silver",
 };
 
 const cardColorBgMap: Record<CardColor, string> = {
   black: "#505050",
-  white: "#ABABAB",
+  white: "#FBFBFB",
   gray: "#F4F4F4",
 };
 
