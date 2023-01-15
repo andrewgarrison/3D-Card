@@ -10,7 +10,7 @@ const cardNameColorMap: Record<CardColor, string> = {
 const cardColorBgMap: Record<CardColor, string> = {
   black: "#505050",
   white: "#FBFBFB",
-  gray: "#F4F4F4",
+  gray: "#D9D9D9",
 };
 
 export const Card3DRenderer = styled.div`
